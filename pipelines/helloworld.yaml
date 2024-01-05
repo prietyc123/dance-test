@@ -1,0 +1,13 @@
+kind: Pipeline
+apiVersion: tekton.dev/v1beta1
+metadata:
+  name: helloworld
+spec:
+  tasks:
+    - name: echo-resolved
+      taskSpec:
+        steps:
+          - image: quay.io/fedora/fedora:38
+            name: hello
+            script: |
+              echo "Hello world!"
