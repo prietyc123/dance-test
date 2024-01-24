@@ -1,3 +1,4 @@
 # dance-test
 
 hello
+hi
