@@ -1,4 +1,3 @@
 # dance-test
 
 hello
-hi
